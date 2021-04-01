@@ -23,6 +23,12 @@ class _CounterScreenState extends State<CounterScreen> {
       body: Container(
         color: Colors.white
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          print('Botão pressionado');
+        },
+        child: Icon(Icons.add),
+      ),
     );
   }
 }
